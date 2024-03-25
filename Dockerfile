@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8080
-ADD target/TravelApp.jar TravelApp.jar
-ENTRYPOINT ["java","-jar","/TravelApp.jar"]
+ADD target/travelapp.jar travelapp.jar
+ENTRYPOINT ["java","-jar","/travelapp.jar"]
